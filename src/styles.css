@@ -1,2 +1,20 @@
 /* Add application styles & imports to this file! */
-@import "~@ionic/angular/css/ionic.bundle.css";
+@import '~@ionic/angular/css/ionic.bundle.css';
+
+.titulo {
+  text-align: center;
+}
+
+:root {
+  --ion-toolbar-background: purple;
+  --ion-toolbar-color: yellow;
+
+  --ion-background-color: linear-gradient(180deg, #29065a 0%, #7314fd 100%);
+  --ion-tab-bar-background: #29065;
+
+  --ion-tab-bar-color: black;
+  --ion-tab-bar-color-selected: yellow;
+
+  --ion-text-color: white;
+  --ion-text-color-rgb: 255, 255, 255;
+}
